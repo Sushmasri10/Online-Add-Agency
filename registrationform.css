@@ -1,0 +1,96 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Josefin Sans', sans-serif;
+  }
+  
+  body{
+    background: whitesmoke; 
+  }
+  
+  .wrapper{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    max-width: 350px;
+    width: 100%;
+    background: tan;
+    padding: 25px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 2px rgba(254,236,164,1); 
+  }
+  
+  .wrapper h2{
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: none;
+    letter-spacing: 3px;
+    color: black;
+    font-weight: bold;
+  }
+  
+  .wrapper .input_field,.select_field{
+    margin-bottom: 10px;
+  }
+  
+  .wrapper .input_field input[type="text"],
+  .wrapper .input_field input[type="password"]{
+    border: 1px solid #e0e0e0;
+    width: 100%;
+    padding: 10px;
+    border-radius: 14px;
+    border-color: black;
+  }
+  .wrapper .select_field{
+   
+    width: 100%;
+    padding: 0px;
+    border-radius: 14px;
+    border-color: black;
+
+  }
+  
+  
+  .wrapper .btn input[type="submit"] ,.btn input[type="reset"]{
+    border: 0px;
+    margin-top: 15px;
+    padding: 10px;
+    text-align: center;
+    width: 35%;
+    background:green;
+    color: #332902;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: bold;
+    border-radius: 25px;
+    cursor: pointer;
+  }
+  .btn input[type="reset"]{
+    
+    background:red;
+    color: #332902;
+
+  }
+  
+  #error_message{
+    margin-bottom: 30px;
+    background: red;
+    padding:0px;
+    text-align: center;
+    font-size: 15px;
+    transition: all 0.5s ease;
+  }
+
+
+  .contactuslogoimage
+  {
+
+    
+  text-align: right;
+  padding-right: 40px;
+  
+  }

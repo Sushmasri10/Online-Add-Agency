@@ -1,0 +1,76 @@
+<html>
+<head>
+    <title>registration page</title>
+    <link rel="stylesheet" href="registrationform.css">
+</head>
+
+
+
+<body>
+    
+
+  <span>
+    <a href="index.html" target="_parent"><abbr title="HOME" id="abbr"><img class="site-logo" width="100" style="padding-left: 9px; padding-top: 10px;" src="C:\Users\Sushmasri\Downloads\Online Add Agency\Online Add Agency\assets\frontpage.png" alt="website-logo"style="border-radius: 12px;" ></abbr></a>
+  </span>
+     <div class="contactuslogoimage">
+        <img src="C:\Users\Sushmasri\Downloads\Online Add Agency\Online Add Agency\assets\registrationlogo1.png" width="150" height="150"  alt="image not found">
+      </div>
+    
+    <div class="wrapper">
+        <h2>Register</h2>
+        <div id="error_message">  
+        </div>
+        <form action="" id="myform" onsubmit = "return Rvalidate();">
+
+          <div class="input_field">
+              <input type="text" placeholder="Enter name" id="name">
+          </div>
+
+          <div class="input_field">
+            <input type="text" placeholder="Enter Gender" id="subject">
+         </div>
+
+         <div class="input_field">
+            <input type="text" placeholder="Email" id="email">
+        </div>
+         
+          <div class="input_field">
+              <input type="text" placeholder="Phone No" id="phoneNumber">
+          </div>
+          <div class="select_field">
+            <select name="pets" id="courseselect" style="height: 38px; width: 100%; border-radius: 14px; border-color: black;" >
+                <option value="">----select Course----</option>
+                <option value="Ethical Hacking">Ethical Hacking</option>
+                <option value="Cyber Security"> Cyber Security</option>
+                <option value="Online code challange">Online code challange</option>
+               <option value="SQL ">SQL </option>
+               <option value="Fusion 360">Fusion 360</option>
+               <option value="Robotics">Robotics</option>
+               <option value="Cloud Computing">Cloud Computing</option>
+               <option value="Debugging">Debugging</option>
+              <option value="Auto Cad">Auto Cad</option>
+               <option value="Java">Java</option>
+               <option value="Nodemcu">Nodemcu</option>
+               <option value="Interview Skills  ">Interview Skills  </option>
+            </select>
+          </div>
+         
+          <div class="input_field">
+            <input type="password" placeholder="Password" id="password">
+        </div>
+
+        <div class="input_field">
+          <input type="password" placeholder="ConfirmPassword" id="repeatpassword">
+      </div>
+
+         <center> <div class="btn">
+              <input type="submit">&nbsp;&nbsp;
+              <input type="reset" onclick="return resetfun();">
+          </div></center>
+          
+        </form>
+      </div>
+      <script src="registrationform.js"></script>
+</body>
+
+  </html>

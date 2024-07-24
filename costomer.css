@@ -1,0 +1,45 @@
+.name{
+    text-align:center ;
+    
+}
+
+h1{
+    font-size: 50px;
+    background-color: white;
+    display: inline-flex;
+    padding-top: 4px;
+    margin: 15px;
+    border-radius: 10px;
+}
+
+.name1{
+    text-align: left;
+}
+.name1 h3{
+    font-size: 30px;
+    color:#3a454b;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.customerlogo{
+    border: 5px solid black;
+    padding: 50px;
+    display: inline-flex;
+    
+
+}
+
+.list h4{
+    font-size: medium;
+    background-color: #3a454b;
+    color: whitesmoke;
+    display: inline-flex;
+    padding: 7px;
+    margin: 5px;
+
+}
+.customerlogogif
+{
+    text-align: right;
+}
